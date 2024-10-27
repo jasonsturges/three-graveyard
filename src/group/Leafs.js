@@ -70,7 +70,7 @@ class Leafs extends THREE.Group {
 
       // Reset leaf if it falls below the ground
       if (position.y < 0) {
-        position.set((Math.random() - 0.5) * 20, Math.random() * 3 + 0.5, (Math.random() - 0.5) * 20);
+        position.set((Math.random() - 0.5) * 20, Math.random() * 9 + 0.5, (Math.random() - 0.5) * 20);
 
         // Update speed for new variability
         this.randomValues[i].speedX = (Math.random() - 0.5) * 0.01;
